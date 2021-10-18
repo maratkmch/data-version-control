@@ -1,5 +1,7 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    dir = /home/analytics/data/shared_cache
 ['remote "remote_storage"']
     url = /home/analytics/data/dvc_remote
